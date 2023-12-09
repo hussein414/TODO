@@ -114,7 +114,7 @@ fun LazyItemScope.TodoListItem(todoEntity: TodoEntity, onClick: () -> Unit, onDe
                 }
             }
             Box(modifier = Modifier
-                .clickable { onDelete() }
+                .clickable {     }
                 .size(28.dp)
                 .clip(CircleShape)
                 .background(Dark200)
